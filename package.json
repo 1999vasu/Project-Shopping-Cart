@@ -1,0 +1,24 @@
+{
+  "name": "project-shopping-cart",
+  "version": "1.0.0",
+  "description": "<h2> Sql Setup</h2>\r Do the following as root user",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1999vasu/Project-Shopping-Cart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1999vasu/Project-Shopping-Cart/issues"
+  },
+  "homepage": "https://github.com/1999vasu/Project-Shopping-Cart#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  }
+}
