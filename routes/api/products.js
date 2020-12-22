@@ -20,7 +20,7 @@ route.get("/",(req,res)=>{
 
 route.post("/",(req,res)=>{
     // we expect req to have name in it.
-
+    console.log(req.body.price,req.body.name)
     if(isNaN(req.body.price)){
         return res.status(403).send({
             error: "price is not valid number"

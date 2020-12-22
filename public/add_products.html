@@ -9,18 +9,41 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src='shop.js'></script>
-    <script src='index.js'></script>
+    <script async defer src='add_product.js'></script>
+    <!-- <script src='index.js'></script> -->
 </head>
 <body>
-    <div class='container'>
-        <div class='row'>
-            <div class='col'></div>
-            <h1 class='col'>Shop Id</h1>
-            <div class='col'></div>
-        </div>
+    <div class='container p-4'>
+        <h3 class='text-center'>Add Product</h3>
+        <form>
+            <div class='form-group'>
+
+
+                <label for="productName">Product Name</label>
+                <input type='text' class="form-control" name='name' id='productName'>
+
+            </div>
+            <div class='form-group'>
+
+
+                <label for="manufacturer">Manufacturer Name</label>
+                <input type='text' class="form-control" name='manufacturer' id='manufacturer'>
+
+            </div>
+            <div class='form-group'>
+
+
+                <label for="price">Price</label>
+                <input type='number' class="form-control" name='price' id='price'>
+
+            </div>
+            <button type="submit" class="btn btn-primary" id='btnProductAdd'>Submit</button>
+
+        </form>
+
         
-        <div class='row' id='product-list'>
-            
+        <div class='form-group'>
+
         </div>
     </div>
 </body>
